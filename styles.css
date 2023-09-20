@@ -15,4 +15,8 @@
 .product {
     display: inline-block;
     margin-right: 20px; /* Espaçamento entre produtos */
+    text-decoration: none;
+    color: #333;
 }
+
+/* Adicione estilos adicionais aos produtos conforme necessário */

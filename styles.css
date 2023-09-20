@@ -1,17 +1,18 @@
 /* Estilos para os produtos */
+.products {
+    display: flex; /* Exibe os produtos em uma linha horizontal */
+    justify-content: space-between; /* Espaço uniforme entre os produtos */
+}
+
 .product {
     width: 200px;
     padding: 10px;
-    margin: 20px;
     background-color: #f0f0f0;
     text-align: center;
-    transform: rotate(-45deg); /* Gira o produto em -45 graus */
-    display: inline-block;
 }
 
 .product p {
     margin: 0;
-    transform: rotate(45deg); /* Gira o texto do produto em 45 graus para compensar */
 }
 
 .product button {

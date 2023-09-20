@@ -1,0 +1,19 @@
+/* Estilos para a área de rolagem do carrinho */
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#carrinho {
+    white-space: nowrap;
+    animation: scrollRight 10s linear infinite; /* Ajuste a velocidade desejada */
+}
+
+/* Estilos para os itens do carrinho */
+#carrinho li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento entre itens */
+    list-style-type: none;
+}
+
+/* Adicione estilos adicionais conforme necessário */

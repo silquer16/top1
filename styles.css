@@ -1,3 +1,24 @@
+/* Estilos para os produtos */
+.product {
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    transform: rotate(-45deg); /* Gira o produto em -45 graus */
+    display: inline-block;
+}
+
+.product p {
+    margin: 0;
+    transform: rotate(45deg); /* Gira o texto do produto em 45 graus para compensar */
+}
+
+.product button {
+    display: block;
+    margin-top: 10px;
+}
+
 /* Estilos para a área de rolagem do carrinho */
 .scrolling-container {
     width: 100%;
